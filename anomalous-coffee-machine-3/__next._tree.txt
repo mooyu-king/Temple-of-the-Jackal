@@ -1,2 +1,2 @@
 :HL["/_next/static/chunks/0ywnpmdmnz6ku.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"anomalous-coffee-machine-3","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"JdCA1ZiObZjkZlOpWxdOB"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"anomalous-coffee-machine-3","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"bzXZgGIU6eAujguu9S4rK"}
