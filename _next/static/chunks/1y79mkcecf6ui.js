@@ -1,1 +1,0 @@
-(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,3437,e=>{"use strict";var l=e.i(43476);e.s(["default",0,function({href:e,children:i,className:t}){return(0,l.jsx)("a",{className:t,href:e,onClick:()=>{let l=window.plausible;l?.("guide_level_jump",{props:{level:e.replace("#level-","")}})},children:i})}])}]);
