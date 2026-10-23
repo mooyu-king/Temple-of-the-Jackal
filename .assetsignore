@@ -1,0 +1,11 @@
+# Git 元数据仅用于版本管理，禁止作为网站静态资源上传。
+.git
+.git/**
+.wrangler
+.wrangler/**
+README.md
+wrangler.json
+wrangler.jsonc
+wrangler.toml
+.assetsignore
+.gitignore
