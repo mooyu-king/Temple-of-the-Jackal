@@ -1,94 +1,41 @@
-# Temple of the Jackal — Browser Edition
+# Temple of the Jackal
 
-[![Play Temple of the Jackal](https://img.shields.io/badge/PLAY%20NOW-templeofthejackal.com-d9a441?style=for-the-badge)](https://templeofthejackal.com/)
+[Visit Temple of the Jackal](https://templeofthejackal.com/)
 
-**Temple of the Jackal** is a restored browser edition of a compact Godot 3 puzzle game set inside a stylized Egyptian excavation. The complete website is available at **[templeofthejackal.com](https://templeofthejackal.com/)**. It places the playable WebAssembly build inside a responsive game portal, adds accurate instructions and troubleshooting help, and surrounds the original pixel-art experience with a distinct sandstone, charcoal, rust, and gold visual identity.
+## Explore the Website
 
-> **Adults only:** the game is intended for players aged 18 or older. Puzzle progression can unlock two mature story scenes containing explicit sexual content and nudity. The public-facing website avoids explicit screenshots, but visitors should read the age notice before launching the game.
+Temple of the Jackal is a compact adult puzzle game set beneath an imagined Egyptian ruin. Its central rule is easy to understand: use the direction buttons on the left and right sides of the board to rotate the entire chamber, let the colored orbs fall into new positions, and bring matching colors together so they disappear. Clear the remaining orbs to complete the room and move to the next stage. The recovered build contains eighteen primary puzzle stages and two story scenes that become available through progress. It is a deliberately small game, presented in a 256-pixel square canvas, but that limitation gives the experience a tactile quality. Every orb, ledge, doorway, and torch-like color feels cut from the same old game cartridge.
 
-![Temple of the Jackal logo and Anubis-inspired pixel artwork](temple-of-the-jackal-logo.webp)
+![Temple of the Jackal logo](./temple-of-the-jackal-logo.webp)
 
-## Play online
+This browser portal puts play before explanation. The game frame sits at the top, launches only after an adult-age confirmation, and can expand to fullscreen when you want the original pixel grid to breathe. Everything below the frame is organized for people deciding whether to play or returning after a difficult chamber: a spoiler-light overview, accurate rotation controls, a future video area, practical troubleshooting, and frequently asked questions.
 
-The fastest way to enter the temple is to visit **[https://templeofthejackal.com/](https://templeofthejackal.com/)**. No separate installer, account, or download is required. The player loads the restored Godot export from the same domain, so the game can run inside the main page without depending on an external game host. A deliberate launch screen confirms that the visitor is at least 18 years old before the iframe starts.
+![Temple of the Jackal puzzle image one](./temple-of-the-jackal-1.webp)
 
-The original game uses a square 256 × 256 pixel canvas. The website enlarges that canvas while preserving crisp pixel rendering. Desktop browsers provide the most comfortable experience, although the surrounding interface is responsive and can be used on tablets and larger phones. Fullscreen and sharing controls are built into the player toolbar.
+The stage screen arranges the main journey as a sequence of compact rooms. Begin with the earliest available level. Later tiles record the route you have completed, while the special lower corners lead toward the story material after the relevant requirements are met.
 
-## How the puzzle works
+![Temple of the Jackal puzzle image two](./temple-of-the-jackal-2.webp)
 
-Each of the eighteen chambers contains colored orbs, platforms, and two direction controls. Pressing the control on the left or right rotates the entire chamber by ninety degrees. Gravity then pulls every movable orb in the new downward direction. When orbs of the same color touch, they disappear. A chamber is complete when every orb has been removed.
+Study the colored orbs and the platforms between them. Your aim is to make orbs of the same color touch. Because the whole chamber rotates, consider where each orb will fall under gravity rather than looking only at its current neighbor.
 
-The mechanic is easy to understand but rewards planning. A rotation that immediately matches one pair can separate another pair behind a platform, so efficient solutions require looking at the complete board before committing to a direction. The game also displays a par target. Rooms may still be completed after exceeding par, while the target encourages players to revisit a puzzle and find a cleaner sequence.
+Press one of the direction buttons at the sides of the game board. The chamber rotates ninety degrees and loose orbs fall in the new downward direction. When matching colors meet, they activate and disappear. If a sequence leaves the remaining colors separated, reset the chamber and try the opposite order.
 
-![Red and blue orb puzzle with left and right rotation controls](temple-of-the-jackal-1.webp)
+Remove all of the colored orbs to complete the level and continue to the next chamber. The game also tracks a par target for efficient solutions. Progress across the eighteen rooms eventually exposes two additional scenes, which are explicit and intended only for adults.
 
-![Green orb chamber showing an over-par result](temple-of-the-jackal-2.webp)
+## Plan Your Visit
 
-![Level-selection screen showing chamber progress](temple-of-the-jackal-3.webp)
+The opening premise follows an explorer moving deeper into an abandoned dig site. Sounds of water and fresh warmth interrupt the expected dust and silence, leading toward an impossible fountain and a jackal-headed figure. The framing borrows the visual vocabulary of tomb exploration, but the game is not a history lesson and should not be read as an accurate depiction of Egyptian religion. It is fantasy, built around a fictionalized adult Anubis-inspired character and a playful pulp-adventure tone.
 
-## Website features
+Most of your active time is spent with the puzzle system rather than dialogue. The eighteen chambers provide the progression spine. Each level places colored orbs around a confined square board. Turning the entire board left or right changes the direction of gravity, sending the orbs toward new ledges and other colors. Matching orbs vanish when brought together. The visual language stays consistent, so the difficulty comes from forecasting a sequence of rotations rather than learning a new rule every few minutes. That makes the game easy to resume after a break: recognize the colors, inspect the platforms, and focus on the next turn.
 
-The portal is more than a bare iframe. It includes a centered game frame, age confirmation, share modal, fullscreen control, gameplay feature tags, embedded YouTube videos, real screenshots, a four-step visual guide, long-form editorial information, browser troubleshooting, mature-content notices, and a detailed FAQ. The sticky header keeps important navigation available throughout the long page, while the highlighted **Play More** link jumps directly to the shared game archive.
+The desktop release was designed around a 256 by 256 viewport. On this page, the browser build is enlarged with crisp pixel rendering instead of being stretched into a blurry rectangle. Fullscreen gives the canvas more presence, but it does not add detail that was never in the original art. This is intentional. The chunky edges, limited palette, and compressed animation are part of the game's identity.
 
-An optional **Chamber Progress** tracker lets players manually mark any of the eighteen rooms they have cleared. The tracker shows a horizontal completion bar and stores the selected chamber numbers only in the current browser. It does not create an account or send checklist data to a server. Players can reset the tracker at any time.
+Mouse input is the safest way to play. Click the game once after it loads so the embedded canvas has focus, then use the large direction controls on the left and right sides of the puzzle. Watch where gravity carries every orb after a ninety-degree turn. The reset control lets you restart when an early rotation traps colors apart. Keyboard number shortcuts existed in the desktop build to change window scale, but the portal handles responsive scaling for you, so those shortcuts are not important online.
 
-The project also includes the trust pages expected from a complete public website: About Us, Privacy Policy, Contact, and Terms of Service. These pages are linked in the shared footer and included in the sitemap. Support, correction, privacy, and rights-related questions can be sent to **mooyuking@gmail.com**.
+If the player never advances, confirm that JavaScript and WebAssembly are allowed, then try a current desktop version of Chrome, Edge, or Firefox. Privacy extensions can block worker scripts, local storage, audio, or embedded content. The game files are delivered from the dedicated s.templeofthejackal.com game host, while strict corporate and school networks may still reject embedded game files.
 
-## Technology
+Phones can display the page, yet the square game board asks for precise taps. Landscape orientation on a large phone or tablet is more comfortable. If a touch does not register, tap once in the center of the canvas to focus it and avoid browser gestures near the screen edge. Desktop remains the recommended format for solving later rooms and reading the story text.
 
-The website uses Next.js 16, React 19, TypeScript, and Tailwind CSS 4. Next.js is configured with `output: "export"`, producing a static `out/` directory suitable for GitHub Pages, Cloudflare Pages, Netlify, traditional object storage, or any web server capable of serving static files. Images are exported without a runtime image-optimization service, and trailing slashes are enabled for predictable static hosting.
+## Visit Online
 
-The playable game is a Godot 3 web export consisting of an HTML loader, JavaScript glue code, a WebAssembly engine, a PCK data package, and supporting audio-worklet files. It is served from `public/games/temple-of-the-jackal/` and appears in the final static export under the same path.
-
-SEO support includes descriptive metadata, a canonical domain, Open Graph and Twitter information, `VideoGame` and `FAQPage` structured data, `robots.txt`, and `sitemap.xml`. The page uses one primary heading, descriptive alternative text for meaningful images, crawlable editorial copy, and direct internal links to every required information page.
-
-## Local development
-
-Install dependencies and start the development server:
-
-```bash
-npm install
-npm run dev
-```
-
-Then open the local URL shown by Next.js. Run the standard quality checks before publishing:
-
-```bash
-npm run lint
-npm run build
-```
-
-The normal build creates a fresh static export in `out/`. For the deployment repository, use the preservation command instead:
-
-```bash
-npm run build-preserve-git
-```
-
-## Safe static-export workflow
-
-The `out/` directory is designed to be its own Git repository. The first preservation build creates `out/README.md` from this document and initializes `out/.git` when those entries do not exist. It configures the expected deployment remote as `https://github.com/mooyu-king/Temple-of-the-Jackal.git` without pushing or committing anything.
-
-On every later run, `scripts/build-preserve-git.js` temporarily saves `out/.git` and `out/README.md`, removes the old generated export, runs a clean Next.js build, and restores both preserved entries unchanged. This means the deployment repository history, remote configuration, branch metadata, and hand-maintained README survive full rebuilds. Do not use a manual deletion command that removes the entire `out/` directory without first protecting those two entries.
-
-After a successful preservation build, review the generated files and publish from inside `out/` using your normal Git workflow. The script deliberately does not stage, commit, or push changes. Deployment remains an explicit action controlled by the repository owner.
-
-## Main project structure
-
-```text
-src/app/                         Next.js routes, metadata, sitemap, and policies
-src/components/GamePortal.tsx    Main game portal and interactive controls
-public/                          Logo, screenshots, cover art, and browser game
-game-project/                    Recovered Godot project used for the web export
-scripts/build-preserve-git.js    Safe deployment-export builder
-out/                             Generated static site and deployment Git repository
-```
-
-## Privacy and content notes
-
-The website does not require a user account. The manual progress checklist and compatible game-save information use browser-managed storage. Embedded YouTube players may process technical information according to Google and YouTube policies. Hosting providers may also process routine request information such as IP addresses, timestamps, browser types, and error logs. Full details are available in the published Privacy Policy.
-
-This is an unofficial browser portal rather than the original developer or publisher website. Game names, characters, artwork, code, and related assets remain the property of their respective owners. The surrounding website design, guide, troubleshooting information, and editorial text were created for this restored browser presentation.
-
-## Visit the temple
-
-Ready to rotate the chamber and match the colors? **[Play Temple of the Jackal online at templeofthejackal.com](https://templeofthejackal.com/)**.
+[Open Temple of the Jackal](https://templeofthejackal.com/) to explore the website and choose your next activity.
